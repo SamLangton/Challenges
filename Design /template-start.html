@@ -1,0 +1,66 @@
+<!-- 
+- - - - - - - - - - - - - - - - -
+INSTRUCTIONS 
+- - - - - - - - - - - - - - - - -
+
+Create an html document, that passes W3C validation, and which uses flexbox to display a list of items within a content card as per the design supplied. 
+Fonts, colours, spacing should match as closely as possible to the design. Use your eye to judge, we will be looking for balance and precision.
+You should use straight css and javascript (no jquery) and this should be organised as per the project structure.
+
+
+User the content links below for the images within your design:
+
+https://s3-us-west-2.amazonaws.com/s.cdpn.io/210284/93.jpg
+https://s3-us-west-2.amazonaws.com/s.cdpn.io/210284/78.jpg
+https://s3-us-west-2.amazonaws.com/s.cdpn.io/210284/59.jpg
+https://s3-us-west-2.amazonaws.com/s.cdpn.io/210284/46.jpg
+
+-->
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>Page Title</title>
+<link rel="stylesheet" href="css/styles.css">
+<meta charset="UTF-8">
+</head>
+<body class="background">
+<div id="table" style="display: flex">
+        <div class="card">
+            
+              <ul>
+                  <li>
+                    <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/210284/93.jpg" alt="Avatar">
+                    <p class ="name"><b>Linda Hart</b></p>
+                    <p class="address">6765 Shady Ln Dr</p> 
+                    </li>
+
+                    <li>
+                    <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/210284/46.jpg" alt="Avatar">
+                    <p class ="name"><b>Roger Medina</b></p> 
+                     <p class="address">2420 Paddock Way</p>
+                    </li>
+                
+                <li>
+                    <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/210284/59.jpg" alt="Avatar">               
+                    <p class ="name"><b>Dean Sullivan</b></p>
+                    <p class="address">6727 Airplane Ave</p>
+                    </li> 
+                
+                <li>
+                    <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/210284/78.jpg" alt="Avatar">
+                    <p class ="name"><b>Elizabeth Austin</b></p> 
+                        <p class="address">6685 Blossom Hill Rd</p>
+                </li>
+        </ul>
+    </div>
+    
+</div>
+<div class="wrapper">
+<input id="toggle" type="button" value="HIDE CONTENT" >
+</div>
+<script src="js/scripts.js"></script>
+</body>
+</html>
+
+
