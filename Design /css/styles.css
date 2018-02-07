@@ -74,3 +74,6 @@ li:last-child {
 b{
     font-size: 20px;
 }
+#toggle:hover{
+    background-color: rgb(223, 219, 219);
+}

@@ -46,5 +46,6 @@ function decompress(string){
 
 
 
-var string = "a2b3c5a2";
-decompress(string);
+
+compress(compress);
+decompress(decompress);
